@@ -23,8 +23,8 @@ def decodifica_qr_code (qrCode):
             qtdLetras    = 15 # quantidade de letras na linha
 
         
-        for i in range (inicioLinha, finalLinha): # passando pelas colunas
-            for j in range (inicioColuna, finalColuna): # passando pelas linhas
+        for i in range (inicioLinha, finalLinha): # passando pelas linha
+            for j in range (inicioColuna, finalColuna): # passando pelas coluna
                 linhas.append(qrCode[i][j]) # coloca num unico vetor, todos dados        
         
         
